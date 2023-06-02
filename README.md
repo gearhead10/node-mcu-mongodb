@@ -1,5 +1,5 @@
 # node-mcu-mongodb
-Alpha proyect
+Alpha proyect v0.1.2
 
 ## DESCRIPCIÓN ##
 -- Proyecto para conectar broker + NodeMCU ESP8266 WiFi para envío de datos obtenidos desde sensores 
