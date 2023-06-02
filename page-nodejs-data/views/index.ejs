@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Visualización de Datos</title>
+  <style>
+    .datos-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .dato {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      max-width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Datos de la base de datos:</h1>
+  <div class="datos-container">
+    <% datos.forEach(function(dato) { %>
+      <div class="dato">
+        
+        <p>Humedad: <%= dato.humedad %> %</p>
+        <p>Temperatura: <%= dato.temp %> °C</p>
+      </div>
+    <% }) %>
+  </div>
+</body>
+</html>
+
