@@ -18,6 +18,12 @@ to a NoSQL MongoDB database using clusters and JSON data.
 - Instalar dependecias de NodeJs para correr el servicio del servidor de Express.
 - La información se muestra en el "Index.ejs" del directorio "Views".
 
+## OPERATION ##
+
+- Install Arduino libraries.
+- Fill in the marked credentials and connections fields.
+- Install NodeJs dependencies to run the Express server service.
+- The information is displayed in the "Index.ejs" in the "Views" directory.
 
 #### ## logs ## #####
 
